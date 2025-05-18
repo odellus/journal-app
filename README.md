@@ -1,4 +1,4 @@
-# markdown-editor
+# journal-app
 
 Huge shout out to [this project](https://codesandbox.io/p/sandbox/markdown-editor-with-katex-qlww9).
 
@@ -8,5 +8,5 @@ Huge shout out to [this project](https://codesandbox.io/p/sandbox/markdown-edito
 fnm install 22
 fnm use 22
 npm install
-npm start
+npm run dev
 ```
