@@ -5,8 +5,8 @@ Huge shout out to [this project](https://codesandbox.io/p/sandbox/markdown-edito
 ## Install
 
 ```bash
-fnm install 20
-fnm use 20
+fnm install 22
+fnm use 22
 npm install
 npm start
 ```

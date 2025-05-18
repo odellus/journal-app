@@ -1,23 +1,37 @@
 {
   "compilerOptions": {
-    /* Language and environment */
+    /* Language & environment */
     "target": "ES2022",
     "lib": ["DOM", "ES2022"],
-    "jsx": "react-jsx",          /* React 17+ automatic runtime */
+
+    /* React 17+ automatic runtime */
+    "jsx": "react-jsx",
+
+    /* Module/bundling */
     "module": "ESNext",
-    "moduleResolution": "NodeNext",
+    "moduleResolution": "Bundler",        /* keep VS Code in sync with Vite */
+    "allowImportingTsExtensions": true,   /* so `import "./foo.ts"` is legal if we need it */
+    "verbatimModuleSyntax": true,         /* optional but recommended with Bundler */
+
+    /* Extra type packages Vite injects at dev-time */
+    "types": ["vite/client"],
+
+    /* Paths / aliases (matches @ → /src that Vite gives us) */
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["*"]
+    },
+
+    /* Misc. */
     "resolveJsonModule": true,
     "esModuleInterop": true,
-
-    /* Type safety */
     "strict": true,
     "skipLibCheck": true,
 
-    /* Paths */
-    "baseUrl": "./src",
-
-    /* Output */
-    "noEmit": true               /* Vite does the emit */
+    /* Output (Vite handles build) */
+    "noEmit": true
   },
+
+  /* What files are part of this programme */
   "include": ["src", "vite.config.ts"]
 }
