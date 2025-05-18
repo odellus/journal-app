@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    /* Language and environment */
+    "target": "ES2022",
+    "lib": ["DOM", "ES2022"],
+    "jsx": "react-jsx",          /* React 17+ automatic runtime */
+    "module": "ESNext",
+    "moduleResolution": "NodeNext",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+
+    /* Type safety */
+    "strict": true,
+    "skipLibCheck": true,
+
+    /* Paths */
+    "baseUrl": "./src",
+
+    /* Output */
+    "noEmit": true               /* Vite does the emit */
+  },
+  "include": ["src", "vite.config.ts"]
+}
