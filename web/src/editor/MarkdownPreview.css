@@ -1,0 +1,19 @@
+/* One place to control preview typography */
+.md-preview.markdown-body {
+  font-size: 0.9rem !important;        /* ← pick your size */
+  line-height: 1.65;
+  font-family: Georgia, Palatino, "Palatino Linotype",
+               Times, "Times New Roman", serif;
+}
+
+/* scale headings down a little so they aren't gigantic */
+.md-preview h1 { font-size: 1.7rem; }
+.md-preview h2 { font-size: 1.4rem; }
+.md-preview h3 { font-size: 1.2rem; }
+
+/* keep code blocks readable */
+.md-preview pre,
+.md-preview code {
+  font-family: "Fira Code", Menlo, monospace;
+  font-size: 0.85rem;
+}
